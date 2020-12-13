@@ -138,20 +138,24 @@
   <hr>
 
   <!-- Footer -->
-  <html> 
+ <script>
+    $( "#footer" ).load( "footer.html" );
+</script>
+  
+<!--  <html> 
   <head> 
     <script src="jquery.js"></script> 
     <script> 
     $(function(){
-      $("#includedContent").load("footer.html"); 
+      $("#footer").load("footer.html"); 
     });
     </script> 
   </head> 
 
-  <body> 
+  <!--<body> 
      <div id="includedContent"></div>
-  </body> 
-</html>
+  </body> --> 
+<!--</html> 
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
