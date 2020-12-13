@@ -6,8 +6,8 @@
 
 body {
   font-size: 20px;
-  color: #612500;
-  font-family: 'Lora', 'Times New Roman', serif;
+  /*color: #612500; */
+  font-family: 'Roboto', 'Times New Roman', serif;
 }
 
 p {
@@ -35,7 +35,7 @@ a {
 }
 
 a:focus, a:hover {
-  color: #0085A1;
+  color: #008080;
 }
 
 blockquote {
@@ -62,13 +62,13 @@ blockquote {
 
 ::-moz-selection {
   color: #fff;
-  background: #0085A1;
+  background: #008080;
   text-shadow: none;
 }
 
 ::selection {
   color: #fff;
-  background: #0085A1;
+  background: #008080;
   text-shadow: none;
 }
 
@@ -274,7 +274,7 @@ header.masthead .post-heading .meta a {
 
 .post-preview > a:focus, .post-preview > a:hover {
   text-decoration: none;
-  color: #0085A1;
+  color: #008080;
 }
 
 .post-preview > a > .post-title {
@@ -302,7 +302,7 @@ header.masthead .post-heading .meta a {
 
 .post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
   text-decoration: underline;
-  color: #0085A1;
+  color: #008080;
 }
 
 @media only screen and (min-width: 768px) {
@@ -361,7 +361,7 @@ header.masthead .post-heading .meta a {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #0085A1;
+  color: #008080;
 }
 
 form .form-group:first-child .floating-label-form-group {
@@ -394,14 +394,14 @@ footer .copyright {
 }
 
 .btn-primary {
-  background-color: #0085A1;
-  border-color: #0085A1;
+  background-color: #008080;
+  border-color: #008080;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #00657b !important;
-  border-color: #00657b !important;
+  background-color: #008080 !important;
+  border-color: #008080 !important;
 }
 
 .btn-lg {
