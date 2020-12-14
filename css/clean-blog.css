@@ -26,6 +26,10 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+span {
+  font-size:15px;
+}
+
 a {
   color: #212529;
   transition: all 0.2s;
@@ -417,13 +421,36 @@ footer .copyright {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
 
-  .box {
+.box {
     background: #008080;
     color: #fff;
     border-radius: 5px;
-    padding: 1.5rem 2rem;
+    padding: 2rem 2rem;
     font-size: 150%;
     text-align: center
   }
 
-  
+  .button {
+    background-color: #008080; /* turqoise */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #008080;
+  }
+
+  .button1:hover {
+    background-color: #008080;
+    color: white;
+  }
