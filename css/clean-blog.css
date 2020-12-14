@@ -424,9 +424,7 @@ footer .copyright {
 .box {
     background: #008080;
     color: #fff;
-    border-radius: 5px;
-    padding: 2rem 2rem;
-    font-size: 150%;
+    padding: 100px;
     text-align: center
   }
 
@@ -434,12 +432,10 @@ footer .copyright {
     background-color: #008080; /* turqoise */
     border: none;
     color: white;
-    padding: 16px 32px;
+    padding: 20px 40px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
   }
