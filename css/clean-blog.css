@@ -73,6 +73,13 @@ blockquote {
   text-shadow: none;
 }
 
+img:hover {
+  background: #008080
+  opacity: 0.5;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
 img::-moz-selection {
   color: #fff;
   background: transparent;
@@ -424,7 +431,6 @@ footer .copyright {
 
 .box {
     color: #fff;
-    padding: 100px;
     text-align: center
     transition-duration: 0.4s;
     cursor: pointer;
