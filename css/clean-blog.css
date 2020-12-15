@@ -439,7 +439,7 @@ footer .copyright {
 
 .overlay {
   background-color: #008080;
-  transition: .5s ease;
+  transition: .8s ease;
 }
 
 .box:hover .overlay {
