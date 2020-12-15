@@ -421,23 +421,28 @@ footer .copyright {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
 
+
 .box {
-    background: #008080;
     color: #fff;
     padding: 100px;
     text-align: center
+    transition-duration: 0.4s;
+    cursor: pointer;
   }
+
+.box:hover {
+      background-color: #008080;
+      color: black;
+    }
 
   .button {
     background-color: #008080; /* turqoise */
     border: none;
     color: white;
-    padding: 20px 40px;
+    padding: 40px 80px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    transition-duration: 0.4s;
-    cursor: pointer;
   }
 
   .button1 {
