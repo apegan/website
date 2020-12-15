@@ -75,7 +75,7 @@ blockquote {
 
 img:hover {
   background: #008080
-  opacity: 0.5;
+  transparent: 0.5;
   transition-duration: 0.4s;
   cursor: pointer;
 }
@@ -112,7 +112,7 @@ img::-moz-selection {
   font-weight: 800;
   padding: 13px;
   text-transform: uppercase;
-  color: #343a40;
+  color: #008080;
 }
 
 #mainNav .navbar-nav > li.nav-item > a {
@@ -129,17 +129,17 @@ img::-moz-selection {
   }
   #mainNav .navbar-brand {
     padding: 10px 20px;
-    color: #fff;
+    color: #008080;
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: rgba(255, 255, 255, 0.8);
+    color: #008080;
   }
   #mainNav .navbar-nav > li.nav-item > a {
     padding: 10px 20px;
-    color: #fff;
+    color: #008080;
   }
   #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
-    color: rgba(255, 255, 255, 0.8);
+    color: #008080;
   }
 }
 
@@ -160,16 +160,16 @@ img::-moz-selection {
     background-color: rgba(255, 255, 255, 0.9);
   }
   #mainNav.is-fixed .navbar-brand {
-    color: #212529;
+    color: #008080;
   }
   #mainNav.is-fixed .navbar-brand:focus, #mainNav.is-fixed .navbar-brand:hover {
-    color: #0085A1;
+    color: #008080;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a {
-    color: #212529;
+    color: #008080;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus, #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
-    color: #0085A1;
+    color: #008080;
   }
   #mainNav.is-visible {
     /* if the user changes the scrolling direction, we show the header */
