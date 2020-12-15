@@ -75,9 +75,7 @@ blockquote {
 
 img:hover {
   background: #008080
-  transparent: 0.5;
   transition-duration: 0.4s;
-  cursor: pointer;
 }
 
 img::-moz-selection {
@@ -132,14 +130,14 @@ img::-moz-selection {
     color: #008080;
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #008080;
+    color: #008000;
   }
   #mainNav .navbar-nav > li.nav-item > a {
     padding: 10px 20px;
     color: #008080;
   }
   #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
-    color: #008080;
+    color: #008000;
   }
 }
 
@@ -163,13 +161,13 @@ img::-moz-selection {
     color: #008080;
   }
   #mainNav.is-fixed .navbar-brand:focus, #mainNav.is-fixed .navbar-brand:hover {
-    color: #008080;
+    color: #008000;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a {
     color: #008080;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus, #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
-    color: #008080;
+    color: #008000;
   }
   #mainNav.is-visible {
     /* if the user changes the scrolling direction, we show the header */
