@@ -441,7 +441,7 @@ footer .copyright {
       color: black;
     }
 
-  .button {
+ .button {
     background-color: #008080; /* turqoise */
     border: none;
     color: white;
@@ -454,6 +454,7 @@ footer .copyright {
   .button1 {
     background-color: white;
     color: black;
+    padding: 20px;
     border: 2px solid #008080;
   }
 
