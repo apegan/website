@@ -489,7 +489,7 @@ footer .copyright {
 } */
 
 .boxes {
-	  display: grid;
+    display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
@@ -500,8 +500,8 @@ footer .copyright {
 
 .boximage {
   display: block;
-  width: 600;
-  height: 450;
+  width: 200;
+  height: 200;
 }
 
 
