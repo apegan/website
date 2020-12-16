@@ -528,3 +528,48 @@ footer .copyright {
     width: 100%;
     padding-top: 75%;
 }
+
+.boxes {
+	display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.box {
+  position: relative;
+  width: 50%;
+}
+
+.boximage {
+  display: block;
+  width: 100%;
+  
+}
+
+
+.boxoverlay {
+  position: absolute;
+  height: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008080;
+}
+
+.box:hover .boxoverlay {
+  opacity: 1;
+}
+
+.boxtext {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); 
