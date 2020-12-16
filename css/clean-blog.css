@@ -496,13 +496,15 @@ footer .copyright {
 
 .box {
   position: absolute;
+  display: block;
+
 }
 
-.boximage {
+/* .boximage {
   display: block;
   width: 200;
   height: 200;
-}
+} */
 
 
 .boxoverlay {
