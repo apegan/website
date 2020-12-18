@@ -23,6 +23,10 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+h5.box{
+	line-height:2;
+}
+
 span {
   font-size:15px;
 }
