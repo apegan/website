@@ -491,7 +491,7 @@ footer .copyright {
 .boxes {
     width: 100%;
     height: auto;
-    padding: 20px; 
+/*     padding: 20px;  */
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -501,7 +501,7 @@ footer .copyright {
   width:250px;
   height: 250px;
   position: relative;
-  background-color: #008080;
+/*   background-color: #008080; */
   margin: 10px auto;
   cursor: pointer;
 }
@@ -515,10 +515,10 @@ footer .copyright {
 .box::before, .box::after{
 	content: "";
 	position: absolute;
-	top: 1x;
-	left: 1px;
-	right: 1px;
-	bottom: 1px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
 	transition: all 0.4s ease;
 }
 
@@ -555,6 +555,7 @@ footer .copyright {
 }
 .box:hover::after{
 	transform: scale(1, 1.05);
+	background-color: #008080;
 }
 
 .boxtext{
