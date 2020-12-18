@@ -566,7 +566,7 @@ footer .copyright {
 	padding: 25px 25px;
 	display: none;
 	text-align: center;
-	background-color: #008080;
+	background-color: rgba(0, 128, 128, 0.5);
 	transition: 1s ease;
 }
 
