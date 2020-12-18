@@ -493,7 +493,7 @@ footer .copyright {
     height: auto;
 /*     padding: 20px;  */
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 50px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
@@ -519,7 +519,7 @@ footer .copyright {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	transition: all 0.4s ease;
+	transition: 0.4s ease;
 }
 
 .box::before{
@@ -550,12 +550,12 @@ footer .copyright {
 }
 
 .box:hover::before{
-	background-color: #008080;
-	transform: scale(1.05, 1);
+/* 	background-color: #008080;
+	transform: scale(1.05, 1); */
 }
 .box:hover::after{
-	transform: scale(1, 1.05);
-	background-color: #008080;
+/* 	transform: scale(1, 1.05);
+	background-color: #008080; */
 }
 
 .boxtext{
@@ -567,6 +567,7 @@ footer .copyright {
 	padding: 25px 25px;
 	display: none;
 	text-align: center;
+	background-color: #008080;
 }
 
 .box:hover .boxtext{
