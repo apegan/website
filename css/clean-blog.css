@@ -464,6 +464,7 @@ footer .copyright {
   height: 250px;
   position: relative;
   cursor: pointer;
+	margin-bottom: 50px;
 }
 
 .box img{
