@@ -491,18 +491,18 @@ footer .copyright {
 .boxes {
     width: 100%;
     height: auto;
-    padding: 20px;
+    /* padding: 20px; */
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .box {
-  width:270px;
+  width:250px;
   height: 250px;
   position: relative;
   background-color: white;
-  margin: 10px auto;
+  /* margin: 10px auto; */
   cursor: pointer;
 }
 
@@ -515,23 +515,23 @@ footer .copyright {
 .box::before, .box::after{
 	content: "";
 	position: absolute;
-	top: 15px;
+	/* top: 15px;
 	left: 15px;
 	right: 15px;
-	bottom: 15px;
-	transition: all 0.5s ease-out;
+	bottom: 15px; */
+	transition: all 0.4s ease-out;
 }
 
 .box::before{
 	/* border-top: 2px dashed white;
 	border-bottom: 2px dashed white; */
-  background-color: #008080
+  background-color: #008080;
 	transform: scale(0, 1);
 }
 .box::after{
 	/* border-left: 2px dashed white;
 	border-right: 2px dashed white; */
-  background-color: #008080
+  background-color: #008080;
 	transform: scale(1, 0);
 }
 
@@ -545,7 +545,7 @@ footer .copyright {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
+  transition: .3s ease;
   /* background-color: #008080; */
 }
 
@@ -561,7 +561,7 @@ footer .copyright {
 	position: absolute;
 	color: white;
 	bottom: 0;
-	width: 270px;
+	width: 250px;
 	height: 250px;
 	padding: 75px 25px;
 	display: none;
