@@ -5,6 +5,7 @@
 body {
   font-size: 20px;
   font-family: 'Roboto', 'Arial', serif;
+	background-color: #171717;
 }
 
 p {
@@ -21,7 +22,7 @@ h5,
 h6 {
   font-weight: 800;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #171717;
+  color: white;
 }
 
 h5.box{
