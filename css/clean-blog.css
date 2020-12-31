@@ -32,11 +32,16 @@ h5.box{
 
 span {
   font-size:15px;
+  color: white;
 }
 
 a {
   color: #212529;
   transition: all 0.2s;
+}
+
+ul {
+  color: white;
 }
 
 a:focus, a:hover {
@@ -129,6 +134,7 @@ img::-moz-selection {
   #mainNav {
     border-bottom: 1px solid transparent;
     background: transparent;
+    color: white;
   }
   #mainNav .navbar-brand {
     padding: 10px 20px;
@@ -153,6 +159,7 @@ img::-moz-selection {
     transform: translate3d(0, 0, 0);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    color: white;
   }
   #mainNav.is-fixed {
     /* when the user scrolls down, we hide the header right above the viewport */
@@ -493,4 +500,3 @@ footer .copyright {
 	display: block;
 	transition: 0.8 ease;
 }
-
