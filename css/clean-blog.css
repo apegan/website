@@ -417,7 +417,7 @@ footer .copyright {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  color: #fff;
+  color: black;
   background-color: #558a60 !important;
   border-color: #558a60 !important;
 }
