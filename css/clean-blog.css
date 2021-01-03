@@ -5,7 +5,7 @@
 body {
   font-size: 20px;
   font-family: 'Roboto', 'Arial', serif;
-	background-color: #171717;
+	background-color: #242424;
 }
 
 p {
@@ -22,7 +22,7 @@ h4,
 h5,
 h6 {
   font-weight: 800;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: white;
 }
 
@@ -44,7 +44,7 @@ ul {
 }
 
 a:focus, a:hover {
-  color: #008080;
+  color: #558a60;
 }
 
 blockquote {
@@ -76,13 +76,13 @@ section {
 
 ::-moz-selection {
   color: #fff;
-  background: #008080;
+  background: #558a60;
   text-shadow: none;
 }
 
 ::selection {
   color: #fff;
-  background: #008080;
+  background: #558a60;
   text-shadow: none;
 }
 
@@ -104,14 +104,14 @@ img::-moz-selection {
 
 #mainNav {
   position: absolute;
-  border-bottom: 1px solid #171717;
-  background-color: #171717;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border-bottom: 1px solid #242424;
+  background-color: #242424;
+  font-family: 'Roboto', sans-serif;
 }
 
 #mainNav .navbar-brand {
   font-weight: 800;
-  color: #008080;
+  color: #558a60;
 }
 
 #mainNav .navbar-toggler {
@@ -119,7 +119,7 @@ img::-moz-selection {
   font-weight: 800;
   padding: 13px;
   text-transform: uppercase;
-  color: #008080;
+  color: #558a60;
 }
 
 #mainNav .navbar-nav > li.nav-item > a {
@@ -140,14 +140,14 @@ img::-moz-selection {
     color: white;
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #008080;
+    color: #558a60;
   }
   #mainNav .navbar-nav > li.nav-item > a {
     padding: 10px 20px;
     color: white;
   }
   #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
-    color: #008080;
+    color: #558a60;
   }
 }
 
@@ -160,6 +160,7 @@ img::-moz-selection {
     backface-visibility: hidden;
     color: white;
   }
+
   #mainNav.is-fixed {
     /* when the user scrolls down, we hide the header right above the viewport */
     position: fixed;
@@ -169,16 +170,16 @@ img::-moz-selection {
     background-color: rgba(255, 255, 255, 0.9);
   }
   #mainNav.is-fixed .navbar-brand {
-    color: #008080;
+    color: #558a60;
   }
   #mainNav.is-fixed .navbar-brand:focus, #mainNav.is-fixed .navbar-brand:hover {
-    color: #008000;
+    color: #558a60;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a {
-    color: #008080;
+    color: #558a60;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus, #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
-    color: #008000;
+    color: #558a60;
   }
   #mainNav.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -201,7 +202,7 @@ header.masthead .overlay {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #212529;
+  background-color: #242424;
   opacity: 0.5;
 }
 
@@ -238,7 +239,7 @@ header.masthead .site-heading .subheading {
   line-height: 1.1;
   display: block;
   margin: 10px 0 0;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 @media only screen and (min-width: 768px) {
@@ -262,14 +263,14 @@ header.masthead .post-heading .subheading {
   font-size: 24px;
   font-weight: 600;
   margin: 10px 0 30px;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 header.masthead .post-heading .meta {
   font-size: 20px;
   font-weight: 300;
   font-style: italic;
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 header.masthead .post-heading .meta a {
@@ -286,12 +287,12 @@ header.masthead .post-heading .meta a {
 }
 
 .post-preview > a {
-  color: #212529;
+  color: #242424;
 }
 
 .post-preview > a:focus, .post-preview > a:hover {
   text-decoration: none;
-  color: #008080;
+  color: #558a60;
 }
 
 .post-preview > a > .post-title {
@@ -314,12 +315,12 @@ header.masthead .post-heading .meta a {
 
 .post-preview > .post-meta > a {
   text-decoration: none;
-  color: #212529;
+  color: #242424;
 }
 
 .post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
   text-decoration: underline;
-  color: #008080;
+  color: #558a60;
 }
 
 @media only screen and (min-width: 768px) {
@@ -347,13 +348,13 @@ header.masthead .post-heading .meta a {
   border-radius: 0;
   background: none;
   box-shadow: none !important;
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .floating-label-form-group input::-webkit-input-placeholder,
 .floating-label-form-group textarea::-webkit-input-placeholder {
   color: #868e96;
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .floating-label-form-group label {
@@ -378,7 +379,7 @@ header.masthead .post-heading .meta a {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #008080;
+  color: #558a60;
 }
 
 form .form-group:first-child .floating-label-form-group {
@@ -411,14 +412,14 @@ footer .copyright {
 }
 
 .btn-primary {
-  background-color: #008080;
-  border-color: #008080;
+  background-color: white;
+  border-color: white;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #008080 !important;
-  border-color: #008080 !important;
+  background-color: #558a60 !important;
+  border-color: #558a60 !important;
 }
 
 .btn-lg {
@@ -432,30 +433,30 @@ footer .copyright {
   }
 
 .button {
-  background-color: #008080; /* turqoise */
+  background-color: #558a60; /* turqoise */
   color: white;
   text-align: center;
   display: inline-block;
   }
 
 .button1 {
-  background-color: #008080; /* turqoise */
+  background-color: white; /* turqoise */
   color: white;
   text-align: center;
   display: inline-block;
   padding:0.35em 1.2em;
-  border:0.1em solid #008080;
+  border:0.1em solid #558a60;
   margin:0 0.3em 0.3em 0;
   border-radius:0.12em;
   box-sizing: border-box;
   text-decoration:none;
-  font-family:'Roboto',sans-serif;
+  font-family:'Roboto', sans-serif;
   font-weight:300;
   transition: all 0.2s;
   }
 
 .button1:hover {
-    background-color: #008080;
+    background-color: #558a60;
     color: white;
   }
 
@@ -491,7 +492,7 @@ footer .copyright {
 	padding: 25px 25px;
 	display: none;
 	text-align: center;
-	background-color: rgba(0, 128, 128, 0.7);
+	background-color: rgba(85, 138, 96, 0.7);
 	transition: 0.8s ease;
 }
 
