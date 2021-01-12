@@ -47,6 +47,11 @@ a:focus, a:hover {
   color: #558a60;
 }
 
+defn {
+  font-size:15px;
+  color: white;
+}
+
 blockquote {
   font-style: italic;
   color: #868e96;
@@ -184,6 +189,7 @@ img::-moz-selection {
   #mainNav.is-visible {
     /* if the user changes the scrolling direction, we show the header */
     transform: translate3d(0, 100%, 0);
+    color: #558a60;
   }
 }
 
@@ -315,7 +321,7 @@ header.masthead .post-heading .meta a {
 
 .post-preview > .post-meta > a {
   text-decoration: none;
-  color: #242424;
+  color: #868e96;
 }
 
 .post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
@@ -408,11 +414,12 @@ footer .copyright {
   letter-spacing: 1px;
   text-transform: uppercase;
   border-radius: 0;
+  border:0.1em solid #558a60;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .btn-primary {
-  background-color: white;
+  background-color: #242424;
   border-color: white;
 }
 
@@ -440,7 +447,7 @@ footer .copyright {
   }
 
 .button1 {
-  background-color: white; /* turqoise */
+  background-color: #242424; /* turqoise */
   color: white;
   text-align: center;
   display: inline-block;
@@ -457,7 +464,6 @@ footer .copyright {
 
 .button1:hover {
     background-color: #558a60;
-    color: white;
   }
 
 .boxes {
