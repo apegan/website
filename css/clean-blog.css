@@ -10,7 +10,8 @@ body {
 
 p {
   line-height: 0;
-  margin: 30px 0;
+  margin-top: 0px;
+/*   margin: 30px 0; */
 	color: white;
 }
 
