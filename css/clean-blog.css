@@ -107,7 +107,7 @@ img::-moz-selection {
 #mainNav {
   position: absolute;
   border-bottom: 1px solid #242424;
-  background-color: #242424;
+  background-color: rgba(34, 38, 42, 0.9);
   font-family: 'Roboto', sans-serif;
 }
 
