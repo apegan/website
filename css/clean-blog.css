@@ -505,4 +505,5 @@ footer .copyright {
 .box:hover .boxtext{
 	display: block;
 	transition: 0.8 ease;
+	color: #242424;
 }
