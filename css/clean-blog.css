@@ -30,9 +30,6 @@ h5.box{
 	line-height:2;
 }
 
-span {
-  font-size:15px;
-}
 
 a {
   color: #212529;
@@ -499,7 +496,7 @@ footer .copyright {
 	padding: 25px 25px;
 	display: none;
 	text-align: center;
-	background-color: rgba(85, 138, 96, 0.5);
+	background-color: rgba(85, 138, 96, 0.7);
 	transition: 0.8s ease;
 }
 
