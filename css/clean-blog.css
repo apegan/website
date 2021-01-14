@@ -439,19 +439,19 @@ footer .copyright {
   }
 
 .button {
-  background-color: #73dc51; /* green */
+  background-color: #73dc51; 
   color: white;
   text-align: center;
   display: inline-block;
   }
 
 .button1 {
-  background-color: #242424; /* turqoise */
+  background-color: #242424; 
   color: white;
   text-align: center;
   display: inline-block;
   padding:0.35em 1.2em;
-  border:0.1em solid #558a60;
+  border:0.1em solid #73dc51;
   margin:0 0.3em 0.3em 0;
   border-radius:0.12em;
   box-sizing: border-box;
@@ -463,7 +463,7 @@ footer .copyright {
 
 .button1:hover {
     background-color: #73dc51;
-    color: white;
+    color: #242424;
   }
 
 .boxes {
@@ -491,7 +491,7 @@ footer .copyright {
 
 .boxtext{
 	position: absolute;
-	color: white;
+	color: #242424;
 	bottom: 0;
 	width: 300px;
 	height: 250px;
