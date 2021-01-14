@@ -41,7 +41,7 @@ ul {
 }
 
 a:focus, a:hover {
-  color: #558a60;
+  color: #73dc51;
 }
 
 defn {
@@ -78,13 +78,13 @@ section {
 
 ::-moz-selection {
   color: #fff;
-  background: #558a60;
+  background: #73dc51;
   text-shadow: none;
 }
 
 ::selection {
   color: #fff;
-  background: #558a60;
+  background: #73dc51;
   text-shadow: none;
 }
 
@@ -113,7 +113,7 @@ img::-moz-selection {
 
 #mainNav .navbar-brand {
   font-weight: 800;
-  color: #558a60;
+  color: #73dc51;
 }
 
 #mainNav .navbar-toggler {
@@ -121,7 +121,7 @@ img::-moz-selection {
   font-weight: 800;
   padding: 13px;
   text-transform: uppercase;
-  color: #558a60;
+  color: #73dc51;
 }
 
 #mainNav .navbar-nav > li.nav-item > a {
@@ -143,14 +143,14 @@ img::-moz-selection {
     color: white;
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #558a60;
+    color: #73dc51;
   }
   #mainNav .navbar-nav > li.nav-item > a {
     padding: 10px 20px;
     color: white;
   }
   #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
-    color: #558a60;
+    color: #73dc51;
   }
 }
 
@@ -174,21 +174,21 @@ img::-moz-selection {
     color: white;
   }
   #mainNav.is-fixed .navbar-brand {
-    color: #558a60;
+    color: #73dc51;
   }
   #mainNav.is-fixed .navbar-brand:focus, #mainNav.is-fixed .navbar-brand:hover {
-    color: #558a60;
+    color: #73dc51;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a {
-    color: #558a60;
+    color: #73dc51;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus, #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
-    color: #558a60;
+    color: #73dc51;
   }
   #mainNav.is-visible {
     /* if the user changes the scrolling direction, we show the header */
     transform: translate3d(0, 100%, 0);
-    color: #558a60;
+    color: #73dc51;
   }
 }
 
@@ -297,7 +297,7 @@ header.masthead .post-heading .meta a {
 
 .post-preview > a:focus, .post-preview > a:hover {
   text-decoration: none;
-  color: #558a60;
+  color: #73dc51;
 }
 
 .post-preview > a > .post-title {
@@ -315,7 +315,7 @@ header.masthead .post-heading .meta a {
   font-size: 18px;
   font-style: italic;
   margin-top: 0;
-  color: #868e96;
+  color: #73dc51;
 }
 
 .post-preview > .post-meta > a {
@@ -325,7 +325,7 @@ header.masthead .post-heading .meta a {
 
 .post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
   text-decoration: underline;
-  color: #558a60;
+  color: #73dc51;
 }
 
 @media only screen and (min-width: 768px) {
@@ -384,7 +384,7 @@ header.masthead .post-heading .meta a {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #558a60;
+  color: #73dc51;
 }
 
 form .form-group:first-child .floating-label-form-group {
@@ -424,8 +424,8 @@ footer .copyright {
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: black;
-  background-color: #558a60 !important;
-  border-color: #558a60 !important;
+  background-color: #73dc51 !important;
+  border-color: #73dc51 !important;
 }
 
 .btn-lg {
@@ -439,7 +439,7 @@ footer .copyright {
   }
 
 .button {
-  background-color: #558a60; /* turqoise */
+  background-color: #73dc51; /* green */
   color: white;
   text-align: center;
   display: inline-block;
@@ -462,7 +462,7 @@ footer .copyright {
   }
 
 .button1:hover {
-    background-color: #558a60;
+    background-color: #73dc51;
     color: white;
   }
 
@@ -498,7 +498,7 @@ footer .copyright {
 	padding: 25px 25px;
 	display: none;
 	text-align: center;
-	background-color: rgba(85, 138, 96, 0.7);
+	background-color: rgba(115, 220, 81, 0.7);
 	transition: 0.8s ease;
 }
 
