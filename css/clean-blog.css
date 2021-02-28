@@ -450,14 +450,14 @@ footer .copyright {
   }
 
 .button {
-  background-color: #73dc51; 
+  background-color: #73dc51;
   color: white;
   text-align: center;
   display: inline-block;
   }
 
 .button1 {
-  background-color: #242424; 
+  background-color: #242424;
   color: white;
   text-align: center;
   display: inline-block;
@@ -509,7 +509,7 @@ footer .copyright {
 	padding: 25px 25px;
 	display: none;
 	text-align: center;
-	background-color: rgba(81, 167, 115, 0.7);
+	background-color: rgba(81, 167, 115, 0.8);
 	transition: 0.8s ease;
 }
 
