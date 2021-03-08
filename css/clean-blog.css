@@ -125,8 +125,7 @@ img::-moz-selection {
 
 #mainNav .navbar-brand {
   font-weight: 800;
-  /* add color */
-  color: black;
+  color: white;
 }
 
 #mainNav .navbar-toggler {
@@ -134,8 +133,7 @@ img::-moz-selection {
   font-weight: 800;
   padding: 13px;
   text-transform: uppercase;
-  /* add color */
-  color: black;
+  color: white;
 }
 
 #mainNav .navbar-nav > li.nav-item > a {
@@ -143,8 +141,7 @@ img::-moz-selection {
   font-weight: 800;
   letter-spacing: 1px;
   text-transform: uppercase;
-  /* add color */
-  color: black;
+  color: white;
 }
 
 @media only screen and (min-width: 992px) {
@@ -163,8 +160,7 @@ img::-moz-selection {
   }
   #mainNav .navbar-nav > li.nav-item > a {
     padding: 10px 20px;
-    /* add color */
-    color: black;
+    color: white;
   }
   #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
     /* add color */
