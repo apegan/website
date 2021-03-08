@@ -52,7 +52,8 @@ ul {
 }
 
 a:focus, a:hover {
-  color: #73dc51;
+  /* add color */
+  color: #D96255;
 }
 
 defn {
@@ -89,13 +90,13 @@ section {
 
 ::-moz-selection {
   color: #fff;
-  background: #73dc51;
+  background: #D96255;
   text-shadow: none;
 }
 
 ::selection {
   color: #fff;
-  background: #73dc51;
+  background: #D96255;
   text-shadow: none;
 }
 
@@ -124,7 +125,7 @@ img::-moz-selection {
 
 #mainNav .navbar-brand {
   font-weight: 800;
-  color: #73dc51;
+  color: #D96255;
 }
 
 #mainNav .navbar-toggler {
@@ -132,7 +133,7 @@ img::-moz-selection {
   font-weight: 800;
   padding: 13px;
   text-transform: uppercase;
-  color: #73dc51;
+  color: #D96255;
 }
 
 #mainNav .navbar-nav > li.nav-item > a {
@@ -154,14 +155,14 @@ img::-moz-selection {
     color: white;
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #73dc51;
+    color: #D96255;
   }
   #mainNav .navbar-nav > li.nav-item > a {
     padding: 10px 20px;
     color: white;
   }
   #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
-    color: #73dc51;
+    color: ##D96255;
   }
 }
 
@@ -185,21 +186,21 @@ img::-moz-selection {
     color: white;
   }
   #mainNav.is-fixed .navbar-brand {
-    color: #73dc51;
+    color: #D96255;
   }
   #mainNav.is-fixed .navbar-brand:focus, #mainNav.is-fixed .navbar-brand:hover {
-    color: #73dc51;
+    color: #D96255;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a {
-    color: #73dc51;
+    color: #D96255;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus, #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
-    color: #73dc51;
+    color: #D96255;
   }
   #mainNav.is-visible {
     /* if the user changes the scrolling direction, we show the header */
     transform: translate3d(0, 100%, 0);
-    color: #73dc51;
+    color: #D96255;
   }
 }
 
@@ -320,6 +321,8 @@ header.masthead .post-heading .meta a {
 .post-preview > a > .post-subtitle {
   font-weight: 300;
   margin: 0 0 10px;
+  color: #73dc51;
+  font-style: italic;
 }
 
 .post-preview > .post-meta {
@@ -509,7 +512,7 @@ footer .copyright {
 	padding: 25px 25px;
 	display: none;
 	text-align: center;
-	background-color: rgba(81, 167, 115, 0.8);
+	background-color: rgba(81, 167, 115, 0.9);
 	transition: 0.8s ease;
 }
 
